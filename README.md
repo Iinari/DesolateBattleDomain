@@ -12,18 +12,18 @@ rather than the full breadth of battle logic.
 
 ## Repository Structure
 /Docs
-CardCycleSystem.drawio.png
-HandSystem.drawio.png
-Layers.drawio.png
+  CardCycleSystem.drawio.png
+  HandSystem.drawio.png
+  Layers.drawio.png
 /Scripts
-BattleController.cs
-/CardCycle
-CardCycleSystem.cs
-Hand.cs
-/Interfaces
-IBattleComponent.cs
-IBattleLinkable.cs
-IUIAnchorProvider.cs
+  BattleController.cs
+  /CardCycle
+    CardCycleSystem.cs
+    Hand.cs
+  /Interfaces
+    IBattleComponent.cs
+    IBattleLinkable.cs
+    IUIAnchorProvider.cs
 
 ## Architecture Overview
 `BattleController` orchestrates independent systems — each implementing
