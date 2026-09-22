@@ -20,6 +20,7 @@ rather than the full breadth of battle logic.
   BattleController.cs
   /CardCycle
     CardCycleSystem.cs
+    DiscardPile.cs
     Hand.cs
   /Interfaces
     IBattleComponent.cs
