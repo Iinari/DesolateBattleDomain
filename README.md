@@ -10,6 +10,21 @@ project, and is not meant to compile standalone. It focuses on the core
 orchestration pattern and one representative subsystem (card hand/cycling)
 rather than the full breadth of battle logic.
 
+## Repository Structure
+/Docs
+CardCycleSystem.drawio.png
+HandSystem.drawio.png
+Layers.drawio.png
+/Scripts
+BattleController.cs
+/CardCycle
+CardCycleSystem.cs
+Hand.cs
+/Interfaces
+IBattleComponent.cs
+IBattleLinkable.cs
+IUIAnchorProvider.cs
+
 ## Architecture Overview
 `BattleController` orchestrates independent systems — each implementing
 `IBattleComponent` — through a controlled initialization order:
